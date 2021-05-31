@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<songs id="123">
+    <length>220</length>
+    <singers>
+        <gender>female</gender>
+        <id>3</id>
+        <name>Tejal</name>
+    </singers>
+    <singers>
+        <gender>male</gender>
+        <id>2</id>
+        <name>Aman</name>
+    </singers>
+    <singers>
+        <gender>female</gender>
+        <id>1</id>
+        <name>Maanavi</name>
+    </singers>
+    <title>Urvashi Urvashi</title>
+</songs>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<songs id="124">
+    <length>230</length>
+    <singers>
+        <gender>female</gender>
+        <id>3</id>
+        <name>Tejal</name>
+    </singers>
+    <singers>
+        <gender>male</gender>
+        <id>2</id>
+        <name>Aman</name>
+    </singers>
+    <title>Dil Se</title>
+</songs>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<songs id="125">
+    <length>240</length>
+    <singers>
+        <gender>male</gender>
+        <id>2</id>
+        <name>Aman</name>
+    </singers>
+    <title>Rehna Tu</title>
+</songs>
+

@@ -1,0 +1,55 @@
+{
+  "songs": [
+    {
+      "sid": "123",
+      "title": "Urvashi Urvashi",
+      "length": 220,
+      "singers": [
+        {
+          "id": "1",
+          "name": "Maanavi",
+          "gender": "female"
+        },
+        {
+          "id": "2",
+          "name": "Aman",
+          "gender": "male"
+        },
+        {
+          "id": "3",
+          "name": "Tejal",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "sid": "124",
+      "title": "Dil Se",
+      "length": 230,
+      "singers": [
+        {
+          "id": "2",
+          "name": "Aman",
+          "gender": "male"
+        },
+        {
+          "id": "3",
+          "name": "Tejal",
+          "gender": "female"
+        }
+      ]
+    },
+    {
+      "sid": "125",
+      "title": "Rehna Tu",
+      "length": 240,
+      "singers": [
+        {
+          "id": "2",
+          "name": "Aman",
+          "gender": "male"
+        }
+      ]
+    }
+  ]
+}
