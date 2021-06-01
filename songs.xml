@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<songs id="123">
+<songs>
+
+<song id="123">
     <length>220</length>
     <singers>
         <gender>female</gender>
@@ -17,10 +18,10 @@
         <name>Maanavi</name>
     </singers>
     <title>Urvashi Urvashi</title>
-</songs>
+</song>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<songs id="124">
+
+<song id="124">
     <length>230</length>
     <singers>
         <gender>female</gender>
@@ -33,10 +34,10 @@
         <name>Aman</name>
     </singers>
     <title>Dil Se</title>
-</songs>
+</song>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<songs id="125">
+
+<song id="125">
     <length>240</length>
     <singers>
         <gender>male</gender>
@@ -44,5 +45,7 @@
         <name>Aman</name>
     </singers>
     <title>Rehna Tu</title>
-</songs>
+</song>
 
+
+</songs>

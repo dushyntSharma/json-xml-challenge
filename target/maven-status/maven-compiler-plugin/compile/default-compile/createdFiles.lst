@@ -1,0 +1,10 @@
+com\coding\mindtree\client\CodingApplication.class
+com\coding\mindtree\exceptions\ConnectionFailedException.class
+com\coding\mindtree\client\CodingApplication$1.class
+com\coding\mindtree\dao\JSONDao.class
+com\coding\mindtree\model\Song.class
+com\coding\mindtree\services\JSONServiceImpl.class
+com\coding\mindtree\dao\JSONDaoImpl.class
+com\coding\mindtree\services\JSONService.class
+com\coding\mindtree\utility\DBConnection.class
+com\coding\mindtree\model\Singer.class

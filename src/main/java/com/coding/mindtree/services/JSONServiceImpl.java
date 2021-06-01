@@ -104,22 +104,25 @@ public class JSONServiceImpl implements JSONService {
 
 		String xmlData = "";
 		if (songs != null) {
+			String replaceString = "";
 			for (Song book : songs) {
-				xmlData += readObjToXml(book) + "\n";
+				xmlData = readObjToXml(book) + "\n";
+				replaceString += xmlData.replace("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>", "");
 
 			}
 			System.out.println("***************************");
+			String xmlfinal = "<songs>\n" + replaceString + "\n</songs>";
 			File file = new File("songs.xml");
 			try {
 
 				Writer fw = new FileWriter(file);
-				fw.write(xmlData);
+				fw.write(xmlfinal);
 				fw.flush();
 
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			System.out.println(xmlData);
+			System.out.println(xmlfinal);
 
 		} else {
 			System.out.println("Data Generation failed");
